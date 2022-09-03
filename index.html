@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Meal For Your Ingredients</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class ="container">
+            <div class="meal-wrapper">
+                <div class="meal-search">
+                    <h2 class="tittle">Troba Els Plats Pels Teus Ingredients</h2>
+                    <blockquote>Tots a taula!.<br>
+                        <cite>- Marga Bertran</cite>
+                    </blockquote>
+                
+                    <div class = "meal-search-box">
+                        <input type="text" class="search-control" placeholder="Escriu un ingredient" id="search-input">
+                        <button type="submit" class="search-btn btn" id="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    
+                    </div>
+                </div>
+                <div class="meal-result">
+                    <h2 class="tittle">Resultats De La Teva Cerca: </h2>
+                    <div id="meal">
+                        <!----meal item -->
+                        <!-- <div class="meal-item">
+                            <div class="meal-img"> 
+                                <img src="food.jpg" alt="food"> 
+                            </div>
+                            <div class="meal-name">
+                                <h3>Fusilli amb bolets i salsa de soja</h3>
+                                <a href="#" class ="recipe-btn" >Pren La Recepta</a>   
+                            </div>
+                        </div>          -->
+                        <!----end of meal item -->
+                        
+                    </div>
+                </div>
+
+                <div class = "meal-details">
+                    <!--recipe close btn-->
+                    <button type ="button" class ="btn recipe-close-btn" id="recipe-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <!--meal content-->
+                    <div class="meal-details-content">
+                        <!-- <h2 class = "recipe-title"> Meals Name Here</h2>
+                        <p class  = "recipe-category">Categoria</p>
+                        <div class = "recipe-instruct">
+                            <h3> Instruccions:</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fugit, dicta dignissimos id fuga quibusdam! Vitae rerum necessitatibus, ullam corporis eum aliquam assumenda amet commodi non, quis, nesciunt dolorem quisquam.
+                            </p>
+                        </div>  
+                        <div class = "recipe-meal-img">
+                            <img src = "food.jpg" alt="">  
+                        </div>
+                        <div class = "recipe-link">
+                            <a href = "#" target="_blank">Mira Video</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
